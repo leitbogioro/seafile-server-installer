@@ -1,3 +1,11 @@
+An open seafile clouddisk bash installer
+
+<h2>Introduce</h2>
+
+* This bash is based on <a href="https://github.com/haiwen/seafile-server-installer-cn" target="_blank">https://github.com/haiwen/seafile-server-installer-cn</a>, I have modified it as appropriate.
+
+* This bash can support Ubuntu/Debian, if you use CentOS 7, please move to <a href="https://github.com/haiwen/seafile-server-installer" target="_blank">https://github.com/haiwen/seafile-server-installer</a>.
+
 # Auto install Seafile Server CE* and PRO**
 
 These installers offer a quick and easy way to set up a production ready Seafile Server using MariaDB, Memcached and NGINX as a reverse proxy in under 5 minutes.
@@ -40,6 +48,7 @@ As a precaution I have added a few simple checks to abort installation if any of
 6. Seafile auto start
 7. Firewall
 
+<h2>How to use?</h2>
 
 ## Installation
 
@@ -53,9 +62,23 @@ For **CentOS 7 (64bit)**
 
 For **Ubuntu 16.04 (64bit)**
 
-    cd /root
-    wget --no-check-certificate https://raw.githubusercontent.com/haiwen/seafile-server-installer/master/seafile_ubuntu
-    bash seafile_ubuntu 6.1.2
+* Support pure Ubuntu 16.04/Debian 9. Recommend operating system is Debian 9, the hardware overhead of Debian is lower specially on low memory VPS.
+
+* Make sure you are root user, enter to root folder:
+
+<pre><code>cd /root</code></pre>
+
+Tips: Pure debian 9 doesn't exist component of the ca certificate, you need to install it（Ubuntu doesn't need this step）:
+
+<pre><code>apt-get install ca-certificates</code></pre>
+
+* Download install bash（Ubuntu 16.04 can run the following command immediately）:
+
+<pre><code>wget --no-check-certificate https://raw.githubusercontent.com/leitbogioro/seafile_debian_install/master/seafile_debian_install</code></pre>
+
+* Perform the latest version of the installation（6.1.8, for more information: <a href="https://github.com/haiwen/seafile/tags">seafile release version</a>）
+
+<pre><code>bash seafile_debian_install 6.1.8</code></pre>
 
 
 ## FAQs
