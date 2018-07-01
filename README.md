@@ -74,7 +74,7 @@ Tips: Pure debian 9 doesn't exist component of the ca certificate, you need to i
 
 * Download install bash（Ubuntu 16.04 can run the following command immediately）:
 
-<pre><code>wget --no-check-certificate https://raw.githubusercontent.com/leitbogioro/seafile_debian_install/master/seafile_debian_install</code></pre>
+<pre><code>wget --no-check-certificate https://raw.githubusercontent.com/leitbogioro/seafile-server-installer/master/seafile_ubuntu</code></pre>
 
 * Perform the latest version of the installation（6.1.8, for more information: <a href="https://github.com/haiwen/seafile/tags">seafile release version</a>）
 
