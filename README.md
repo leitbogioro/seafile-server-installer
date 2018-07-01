@@ -60,7 +60,7 @@ For Seafile Professional Server, you will have to download the package prior to 
     wget --no-check-certificate https://raw.githubusercontent.com/haiwen/seafile-server-installer/master/seafile_centos
     bash seafile_centos 6.3.1
 
-**For Ubuntu 16.04 (64bit)**
+**For Ubuntu 16.04 / Debian 9 (64bit)**
 
 * Support pure Ubuntu 16.04/Debian 9. Recommend operating system is Debian 9, the hardware overhead of Debian is lower specially on low memory VPS.
 
