@@ -306,7 +306,7 @@ if ! is_pro && [[ ! -e /opt/${SEAFILE_SERVER_PACKAGE} ]]; then
 else
     cp /opt/${SEAFILE_SERVER_PACKAGE} .
 fi
-tar xzf ${SEAFILE_SERVER_PACKAGE}
+tar xvf ${SEAFILE_SERVER_PACKAGE}
 
 mv ${SEAFILE_SERVER_PACKAGE} installed
 
