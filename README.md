@@ -76,9 +76,9 @@ Tips: Pure debian 9 doesn't exist component of the ca certificate, you need to i
 
 <pre><code>wget --no-check-certificate https://raw.githubusercontent.com/leitbogioro/seafile-server-installer/master/seafile_ubuntu</code></pre>
 
-* Perform the latest version of the installation（6.1.8, for more information: <a href="https://github.com/haiwen/seafile/tags">seafile release version</a>）
+* Perform the latest version of the installation（6.1.8, for more information: <a href="https://github.com/haiwen/seafile-server/releases">seafile release version</a>）
 
-<pre><code>bash seafile_ubuntu 6.1.8</code></pre>
+<pre><code>bash seafile_ubuntu 6.3.1</code></pre>
 
 
 ## FAQs
