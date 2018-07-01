@@ -58,7 +58,7 @@ For Seafile Professional Server, you will have to download the package prior to 
 
     cd /root
     wget --no-check-certificate https://raw.githubusercontent.com/haiwen/seafile-server-installer/master/seafile_centos
-    bash seafile_centos 6.1.2
+    bash seafile_centos 6.3.1
 
 **For Ubuntu 16.04 (64bit)**
 
