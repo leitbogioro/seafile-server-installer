@@ -78,7 +78,7 @@ Tips: Pure debian 9 doesn't exist component of the ca certificate, you need to i
 
 * Perform the latest version of the installation（6.1.8, for more information: <a href="https://github.com/haiwen/seafile/tags">seafile release version</a>）
 
-<pre><code>bash seafile_debian_install 6.1.8</code></pre>
+<pre><code>bash seafile_ubuntu 6.1.8</code></pre>
 
 
 ## FAQs
