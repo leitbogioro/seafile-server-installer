@@ -54,13 +54,13 @@ As a precaution I have added a few simple checks to abort installation if any of
 
 For Seafile Professional Server, you will have to download the package prior to the installation and save it to /opt/.
 
-For **CentOS 7 (64bit)**
+**For CentOS 7 (64bit)**
 
     cd /root
     wget --no-check-certificate https://raw.githubusercontent.com/haiwen/seafile-server-installer/master/seafile_centos
     bash seafile_centos 6.1.2
 
-For **Ubuntu 16.04 (64bit)**
+**For Ubuntu 16.04 (64bit)**
 
 * Support pure Ubuntu 16.04/Debian 9. Recommend operating system is Debian 9, the hardware overhead of Debian is lower specially on low memory VPS.
 
