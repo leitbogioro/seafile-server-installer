@@ -157,6 +157,7 @@ openjdk-8-jre memcached libmemcached-dev zlib1g-dev pwgen curl openssl poppler-u
 libreoffice-script-provider-python ttf-wqy-microhei ttf-wqy-zenhei xfonts-wqy nginx python-requests
 
 pip install --upgrade pylibmc django-pylibmc
+pip install --timeout=3600 Pillow==4.3.0
 
 # -------------------------------------------
 # Setup Nginx
@@ -265,7 +266,7 @@ cat > /etc/init.d/seafile-server <<'EOF'
 # Description:       Start Seafile server
 ### END INIT INFO
 
-# Author: Zheng Xie <xie.zheng@seafile.com>
+# Author: Morica Lau <net.core@outlook.com>
 
 user=seafile
 seafile_dir=/opt/seafile
